@@ -10,7 +10,8 @@ def handle_division(a):
     if type(a) == int:
         a = float(a)
     if a == 0:
-        raise ZeroDivisionError("Cannot divide by zero")
+        print("ERROR: Cannot divide by zero!")
+        #raise ZeroDivisionError("Cannot divide by zero")
     type_error(a)
 
 def handle_addition(a):
